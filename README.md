@@ -11,9 +11,28 @@ This is a console application for searching and booking bus trips. The applicati
 +**Operator functionalities**:
 -Login with existing credentials.
 -Add and remove trips.
+
 +**User functionalities**:
 -Create an account.
 -Login and authentication.
 -Search for available trips.
--Make reservations
+-Make reservations.
+
++**Exception Handling**:
+Operator:
+-Failed login (incorrect username or password).
+-Incorrect trip details (invalid date format, past dates, invalid city names).
+
+User:
+-Failed login (incorrect email format, weak password, mismatched confirmation password).
+-Non-existent trip selection.
+-Incorrect reservation details.
+
++**Security**:
+User passwords are encrypted using the RSA algorithm.
+
+## Requirements
+
+-C++ compiler (GCC, Clang, or MSVC)
+-Standard C++ Libraries
  
