@@ -13,11 +13,12 @@ This is a console application for searching and booking bus trips. The applicati
  -Login with existing credentials.
 `-Add and remove trips.
 
-+ **User functionalities**:
- -Create an account.
- -Login and authentication.
- -Search for available trips.
- -Make reservations.
+## User functionalities
+- Create an account.
+- Login and authentication.
+- Search for available trips.
+- Make reservations.
+
 
 + **Exception Handling**:
 + **Operator**:
