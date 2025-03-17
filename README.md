@@ -20,11 +20,11 @@ This is a console application for searching and booking bus trips. The applicati
  -Make reservations.
 
 + **Exception Handling**:
- Operator:
++ **Operator**:
  -Failed login (incorrect username or password).
  -Incorrect trip details (invalid date format, past dates, invalid city names).
 
-User:
++ **User**:
  -Failed login (incorrect email format, weak password, mismatched confirmation password).
  -Non-existent trip selection.
  -Incorrect reservation details.
